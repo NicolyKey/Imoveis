@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+ <style>
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+    }
+    
+    .container{
+      position: relative;
+      top: 60px;
+      width: 80%;
+      height: 80vh;
+      display: flex;
+      box-shadow: 5px 5px 10px rgba (0, 0, 0, 0.25px);
+      background-color: aquamarine;
+    }
+    .form-imag{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      background-color: coral;
+    }
+    .form-imag img{
+      width: 31rem;
+    
+    }
+    .forma{
+      width: 50%;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: white;
+      padding: 3rem;
+    }
+    .form-header{
+      margin-bottom: 3rem;
+      display: flex;
+      justify-content: space-around;
+    }
+    .form-header h1{
+      content: '';
+      display: block;
+      width: 5rem;
+      height: 0.3rem;
+      background-color: coral;
+      border-radius: 10px;
+    }
+    .forma .input-group{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 1rem 0;
+      margin: 20px;
+    }
+    .input-box{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+    .text-box input{
+      margin: 0.6rem 0;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 1px 1px 6px black;
+    }
+    .input-box label{
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .input-box input::placeholder{
+      font-size: 0.75rem;
+    }
+    .radio-box{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.62rem;
+      flex-direction: row;
+      padding: 0 0.5rem;
+    }
+    .radio-box input{
+      justify-content: center;
+      text-align: center;
+      margin-right: 0.35rem;
+    }
+  </style>
+
+
+<div class="container">
+               <div class="form-imag">
+                    <img src="./hoouse.svg" alt="">
+               </div>
+              <div class="forma">
+               <form action="">
+                    <div class="form-header">
+                         <div class="titulo">
+                              <h1><span>MS</span>House</h1>
+                         </div>
+                    </div>
+                    <div class="input-group">
+                         <div class="input-box text-box">
+                              <label for="CompleteNAme">Nome Completo</label>
+                              <input type="text" name="CompleteName" placeholder="Digite seu nome Completo" required>
+                         </div>
+                         <div class="input-box text-box">
+                              <label for="Numero">Número de WhatsApp</label>
+                              <input type="tel" name="Numero" placeholder="Digite seu número" required>
+                         </div>
+                         <div class="input-box text-box">
+                              <label for="Email">Email</label>
+                              <input type="Email" name="Email" placeholder="Email@gmail.com" required>
+                         </div>
+                         <div class="input-box text-box">
+                              <label for="Cidade">Cidade</label>
+                              <input type="text" name="Cidade" placeholder="Digite a cidade que mora" required>
+                         </div>
+                         <div class="input-box text-box">
+                              <label for="I">Imovel desejado</label>
+                             <select name="" id="">
+                              <option value="casa">Casa Propria</option>
+                              <option value="apartamento">apartamento</option>
+                              <option value="outro">Outro</option>
+                             </select>
+                         </div>
+                         <div class="input-box radio-box">
+                              <label for="EstadoCivil">Estado Civil</label>
+                              <input type="radio" name="EstadoCivil" placeholder="" required>Solteiro(a)
+                              <input type="radio" name="EstadoCivil" placeholder="" required>Casado(a)
+                              <input type="radio" name="EstadoCivil" placeholder="" required>Outro
+                         </div>
+                         <div class="input-box radio-box">
+                              <label for="Bruto">Renda familiar bruta</label>
+                              <input type="radio" name="Bruto" placeholder="" required> até R$2.000,00
+                              <input type="radio" name="Bruto" placeholder="" required> de R$3.000,00 até R$5.000,00
+                              <input type="radio" name="Bruto" placeholder="" required> acima de R$8.000,00
+                         </div>
+                         <div class="input-box radio-box">
+                              <label for="Renda">Qual sua forma de renda</label>
+                              <input type="radio" name="Renda" placeholder="" required>Autonomo(a)
+                              <input type="radio" name="Renda" placeholder="" required>Carteira Assinada
+                              <input type="radio" name="Renda" placeholder="" required>Outro
+                         </div>
+                         <div class="input-box radio-box">
+                              <label for="Investimento">Dispõe de algum valor de entrada?</label>
+                              <input type="radio" name="Investimento" placeholder="" required>Sim
+                              <input type="radio" name="Investimento" placeholder="" required>Não
+                         </div>
+                    </div>
+                    <button>Enviar</button>
+               </form>
+              </div>
+          </div>
+         
+
+        </body>
+        </html>
+
+
+
+
+
+
+
+
+          <!--css                 -->
+       
