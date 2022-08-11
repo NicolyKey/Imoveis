@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font awessome-->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@600&family=Open+Sans&family=Poppins:wght@200;300;500;600;700;800&display=swap" rel="stylesheet">
+<!--css-->
+<link rel="stylesheet" href="./css/index.css">
+    <title>MS House</title>
+</head>
+<body>
+
+<!-- navbar-->
+
+     <header>
+          <div class="nav container">
+               <!--logo-->
+             <div class="logo">
+              <!--<img src="./img/download (1).jpg" alt="">-->
+              <a href="#" class="logo"><span>MS</span>House</a>
+             </div>
+             <!--menu icon-->
+             <input type="checkbox" name="" id="menu">
+             <label for="menu" ><i class="fa-solid fa-bars" id="menu-icon"></i></label>
+             <!--navlist-->
+             <ul class="navbar">
+               <li><a href="#home">Página inicial</a></li>
+               <li><a href="#about">Sobre Nós</a></li>
+               <li><a href="#contato">Contato</a></li>
+             </ul>
+             <!-- form button-->
+             <a href="#formulario" class="btn-form">Faça um simulação</a>
+          </div>
+     </header>
+
+     <!--home-->
+     <section class="home container" id="home" >
+          <div class="home-text">
+               <h1> Saia do aluguel <br>e realize o sonho do seu imóvel próprio <br></h1>
+               <p>Venha fazer uma simulação de compra gratuita, nós acharemos 
+                    o imóvel dos seus sonhos por um preço acessível.</p>
+          </div>
+     </section>
+   <!--about-->
+     <section class="about container" id="about">
+          <div class="about-img">
+               <img src="./img/Portaria-final.jpg" alt="">
+          </div>
+          <div class="about-text">
+               <span>Sobre nós</span>
+               <h2>Programa casa verde e amarela</h2>
+               <p>O Projeto casa Verde e Amarela é um programa do governo, onde torna possível o sonho das famílias
+                    de baixa renda de conquistarem seu imóvel próprio. Um Programa novo e melhorado perfeito para você que busca 
+                   sonhado imóvel próprio. 
+               </p>
+               <a href="https://www.gov.br/mdr/pt-br/assuntos/habitacao/casa-verde-e-amarela" class="btn-form">Saiba mais</a>
+          </div>
+     </section>
+      <!--why us--> 
+      <h2 class="why">Por que escolher o Programa 
+          Casa Verde e Amarela?</h2>
+      <section class="container sales" id="sales">
+         <!--box1-->
+          <div class="box">
+               <i class="fa-solid fa-check"></i>
+               <h3>Menor taxa de juros do mercado</h3>
+               <p>Com as taxas de juros mais baixas para todo Brasil , o programa 
+               Casa Verde e Amarela pretende ajudar mais de 1 milhão de brasileiros a realizarem o sonho de comprarem um
+                imóvel financiado</p>
+          </div>
+           <!--box2-->
+           <div class="box">
+               <i class="fa-solid fa-check"></i>
+               <h3>Maior programa habitacional do Brasil</h3>
+               <p>Além de garantir o preço acessível o Programa Casa Verde e Amarela é a Maior
+                    construtora de imóveis residenciais da América Latina, com mais de 120mil chaves entregues 
+                    nos últimos 3 anos
+               </p>
+          </div>
+           <!--box3-->
+           <div class="box">
+               <i class="fa-solid fa-check"></i>
+               <h3>Preza pela sustentabilidade e qualidade de vida das comunidades onde atua</h3>
+               <p>O Programa Casa Verde e Amarela sempre mantém a qualidade e a sustentabilidade de todas as comunidades onde 
+                    ela atua, prezando pela qualidade de vida de todos seus clientes
+               </p>
+          </div>
+      </section>
+      <!--form-->
+      <div class="form-text">
+          <div class="texto">
+              <h2>Preencha o formulario pra fazermos uma simulação do financiamento gratuitamente</h2>
+          <p>Assim que você preencher esse formulário teremos os dados necessários para fazer sua simulação de compra, não se preocupe
+               seus dados estão seguros
+          </p>
+         </div>
+      </div>
+      <div class="login container">
+          
+      
+          <form action="https://api.sheetmonkey.io/form/sMXdWkRhnktwV6oHW7rVRU" method="post" id="formulario">
+               <span>Nome</span>
+           <div class="write">
+               <input type="text" name="name" placeholder="Digite seu nome" required>
+          </div>
+               <span>Email</span>
+          <div class="write">
+               <input type="email" name="email" placeholder="email@email.com" required>
+          </div>
+               <span>WhatsApp</span>
+          <div class="write">
+               <input type="telefone" name="tel" placeholder="(00) 0000-0000" required>
+          </div>
+               <span>Imóvel que deseja conquistar</span>
+          <div class="write">
+               <input type="text" name="imovel" placeholder="Ex: Casa Própria" required>
+          </div>
+          <span>Onde você mora paga aluguel?</span>
+          <div class="write">
+               <input type="text" name="Paga aluguel" placeholder="Ex:Não pago aluguel" required>
+          </div>
+          <span>Qual a sua renda mensal bruta familiar?</span>
+          <div class="write">
+               <input type="text" name="Renda Bruta" placeholder="Ex: A renda bruta é R$3.000" required>
+          </div>
+          <span>Qual seu tipo de renda?</span>
+          <div class="write">
+               <input type="text" name="Tipo de renda" placeholder="Ex: Carteira assinada " required>
+          </div>
+          <span>Dispõe de algum valor de entrada?</span>
+          <div class="write">
+               <input type="text" name="entrada" placeholder="Ex: Sim, possuo valor para entrada" required>
+          </div>
+               <div class="botton">
+                    <input type="submit" value="Submit"  class="btn-form"/>
+          </div>
+          </form>
+    
+          <img src="./img/apartamento.jpg" alt="">
+     </div>
+    
+      </div>
+      <!--foter-->
+      <section class="footer" id="contato">
+          <div class="footer-container container">
+               <h2>MS<span>House</span></h2>
+               <div class="footer-box">
+                    <h3>links</h3>
+                    <a href="#home">Página Inicial</a>
+                    <a href="#about">Sobre nós</a>
+                    <a href="./thanku.html">Faça uma simulação</a>
+               </div>
+               <div class="social">
+                    <h3>Redes sociais</h3>
+                    <a href="https://www.instagram.com/mshousenegociosimobiliarios/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-solid fa-phone"></i> +47 99936-9851</a>
+               </div>
+          </div>
+      </section>
+      
+
+
+     <script>
+     </script>
+
+</body>
+</html>
